@@ -13,6 +13,22 @@ import { ColDirective } from './directives/col.directive';
 import { OffsetDirective } from './directives/offset.directive';
 import { PushDirective } from './directives/push.directive';
 import { PullDirective } from './directives/pull.directive';
+import { DividerComponent } from './components/divider/divider.component';
+import { AlignDirective } from './directives/align.directive';
+import { ValignDirective } from './directives/valign.directive';
+import { FloatDirective } from './directives/float.directive';
+import { HideDirective } from './directives/hide.directive';
+import { ShowDirective } from './directives/show.directive';
+import { TruncateDirective } from './directives/truncate.directive';
+import { HoverDirective } from './directives/hover.directive';
+import { BrowserDefaultDirective } from './directives/browser-default.directive';
+import { ImgResponsiveDirective } from './directives/img-responsive.directive';
+import { ImgCirclularDirective } from './directives/img-circlular.directive';
+import { VideoContainerComponent } from './components/video-container/video-container.component';
+import { ResponsiveVideoDirective } from './directives/responsive-video.directive';
+import { PulseDirective } from './directives/pulse.directive';
+import { ShadowDirective } from './directives/shadow.directive';
+import { ColComponent } from './components/col/col.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +43,22 @@ import { PullDirective } from './directives/pull.directive';
     OffsetDirective,
     PushDirective,
     PullDirective,
+    DividerComponent,
+    AlignDirective,
+    ValignDirective,
+    FloatDirective,
+    HideDirective,
+    ShowDirective,
+    TruncateDirective,
+    HoverDirective,
+    BrowserDefaultDirective,
+    ImgResponsiveDirective,
+    ImgCirclularDirective,
+    VideoContainerComponent,
+    ResponsiveVideoDirective,
+    PulseDirective,
+    ShadowDirective,
+    ColComponent,
   ],
   imports: [
     BrowserModule,

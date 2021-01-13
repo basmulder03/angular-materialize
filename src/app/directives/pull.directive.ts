@@ -1,10 +1,15 @@
-import { Directive } from '@angular/core';
+import { Directive, Input, ElementRef, OnInit } from '@angular/core';
 
 @Directive({
-  selector: '[appPull]'
+  selector: 'pull, [pull]'
 })
-export class PullDirective {
+export class PullDirective implements OnInit {
 
-  constructor() { }
+  @Input('pull') pull: string;
+
+  constructor(private elRef: ElementRef) { }
+  ngOnInit(): void {
+    this.elRef.nativeElement.classList.add(`pull-${this.pull}`);
+  }
 
 }
