@@ -28,9 +28,13 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/materialize-css/dist/css/materialize.min.css",
               "src/styles.sass"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/hammerjs/hammer.min.js",
+              "./node_modules/materialize-css/dist/js/materialize.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -92,9 +96,13 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/materialize-css/dist/css/materialize.min.css",
               "src/styles.sass"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/hammerjs/hammer.min.js",
+              "./node_modules/materialize-css/dist/js/materialize.min.js"
+            ]
           }
         },
         "lint": {
@@ -123,6 +131,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "materialize-components"
+    }
+  },
+  "defaultProject": "materialize-components",
+  "cli": {
+    "analytics": "5f73dd8e-601c-468a-a92a-10c73149a44b"
+  }
 }
