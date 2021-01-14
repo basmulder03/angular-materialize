@@ -1,7 +1,7 @@
 import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 
 @Component({
-  selector: 'app-col',
+  selector: 'col',
   templateUrl: './col.component.html',
   styleUrls: ['./col.component.sass']
 })

@@ -1,4 +1,4 @@
-import { Align } from './../enums/align.enum';
+import { Align } from '../../enums/align.enum';
 import { Directive, Input, OnInit, ElementRef } from '@angular/core';
 
 @Directive({

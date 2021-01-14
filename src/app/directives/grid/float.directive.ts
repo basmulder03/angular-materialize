@@ -1,4 +1,4 @@
-import { Float } from './../enums/float.enum';
+import { Float } from '../../enums/float.enum';
 import { Directive, Input, OnInit, ElementRef } from '@angular/core';
 
 @Directive({
@@ -10,7 +10,6 @@ export class FloatDirective implements OnInit {
 
   constructor(private elRef: ElementRef) { }
   ngOnInit(): void {
-    console.log(this.float);
     this.elRef.nativeElement.classList.add(this.float);
   }
 
