@@ -29,6 +29,11 @@ import { ResponsiveVideoDirective } from './directives/responsive-video.directiv
 import { PulseDirective } from './directives/pulse.directive';
 import { ShadowDirective } from './directives/shadow.directive';
 import { ColComponent } from './components/col/col.component';
+import { StripedDirective } from './directives/striped.directive';
+import { HighlightDirective } from './directives/highlight.directive';
+import { CenteredDirective } from './directives/centered.directive';
+import { ResponsiveTableDirective } from './directives/responsive-table.directive';
+import { FlowTextDirective } from './directives/flow-text.directive';
 
 @NgModule({
   declarations: [
@@ -59,6 +64,11 @@ import { ColComponent } from './components/col/col.component';
     PulseDirective,
     ShadowDirective,
     ColComponent,
+    StripedDirective,
+    HighlightDirective,
+    CenteredDirective,
+    ResponsiveTableDirective,
+    FlowTextDirective,
   ],
   imports: [
     BrowserModule,
