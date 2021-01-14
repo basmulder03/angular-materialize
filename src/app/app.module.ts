@@ -34,6 +34,7 @@ import { HighlightDirective } from './directives/highlight.directive';
 import { CenteredDirective } from './directives/centered.directive';
 import { ResponsiveTableDirective } from './directives/responsive-table.directive';
 import { FlowTextDirective } from './directives/flow-text.directive';
+import { BagdeComponent } from './components/bagde/bagde.component';
 
 @NgModule({
   declarations: [
@@ -69,6 +70,7 @@ import { FlowTextDirective } from './directives/flow-text.directive';
     CenteredDirective,
     ResponsiveTableDirective,
     FlowTextDirective,
+    BagdeComponent,
   ],
   imports: [
     BrowserModule,

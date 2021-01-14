@@ -1,7 +1,7 @@
 import { Directive, ElementRef, Input, OnInit } from '@angular/core';
 
 @Directive({
-  selector: 'bg-color, [bg-color]'
+  selector: '[bg-color]'
 })
 export class BgColorDirective implements OnInit {
 
